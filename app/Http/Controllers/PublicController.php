@@ -103,6 +103,7 @@ class PublicController extends Controller
             'phone' => '+234-'.$request->phone,
             'pickup_address' => $request->pickup_address,
             'pickup_date' => $request->pickup_date,
+            'order_status_id' => 1,
          ]);
         $fullname = $request->firstname.' '.$request->lastname;
         return view('order_confirmation', compact('order_id','fullname'));

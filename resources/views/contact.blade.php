@@ -1,4 +1,4 @@
-@extends('layouts.contactmaster')
+@extends('layouts.publicmaster')
 
 @section('content')
  <div class="fh5co-section">
